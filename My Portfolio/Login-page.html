@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="index-style.css" />
+
+    <link rel="stylesheet" href="project-services.css" />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section>
+      <nav class="navbar fixed-top navbar-expand-md navbar-dark p-md-3">
+        <div class="container-fluid">
+          <!-- LOGO -->
+          <a class="navbar-brand text-black text-bold" href="index.html"
+            ><img class="logo" src="images/logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon bg-success"></span>
+          </button>
+
+          <!-- Navbar Menu -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item position-relative">
+                <a class="nav-link text-black" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item position-relative project-dropdown">
+                <a class="nav-link text-black" href="project-services.html"
+                  >PROJECTS</a
+                >
+                <!-- Project dropdown -->
+                <div class="project-link projecttab">
+                  <ul class="">
+                    <li class="nav-item list-unstyled">
+                      <a class="nav-link text-black p-0" href="project1.html"
+                        ><span class="hover-underline-animation">
+                          Ginama Project</span
+                        ></a
+                      >
+                    </li>
+                    <li class="nav-item list-unstyled">
+                      <a class="nav-link text-black p-0" href="project2.html"
+                        ><span class="hover-underline-animation"
+                          >Nunez Project</span
+                        >
+                      </a>
+                    </li>
+                    <li class="nav-item list-unstyled">
+                      <a class="nav-link text-black p-0" href="project3.html"
+                        ><span class="hover-underline-animation">
+                          Cainglet Project</span
+                        ></a
+                      >
+                    </li>
+                    <li class="nav-item list-unstyled">
+                      <a class="nav-link text-black p-0" href="project4.html"
+                        ><span class="hover-underline-animation">
+                          Coffeeshop Project</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="nav-item position-relative project-dropdown">
+                <a class="nav-link text-black" href="digital-products.html">
+                  DIGITAL PRODUCTS</a
+                >
+                <!-- Products dropdown -->
+                <div class="project-link digitab">
+                  <ul class="">
+                    <li class="nav-item list-unstyled">
+                      <a
+                        class="nav-link text-black p-0"
+                        href="digital-products.html"
+                      >
+                        <span class="hover-underline-animation"
+                          >Digital Planners</span
+                        >
+                      </a>
+                    </li>
+                    <li class="nav-item list-unstyled">
+                      <a
+                        class="nav-link text-black p-0"
+                        href="digital-products.html"
+                      >
+                        <span class="hover-underline-animation"
+                          >Illustrations</span
+                        >
+                      </a>
+                    </li>
+                    <li class="nav-item list-unstyled">
+                      <a
+                        class="nav-link text-black p-0"
+                        href="commissions.html"
+                      >
+                        <span class="hover-underline-animation"
+                          >Commissions</span
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="nav-item position-relative project-dropdown">
+                <a
+                  class="nav-link text-black"
+                  href="./project-services.html?redirect=aboutMe"
+                  >ABOUT</a
+                >
+                <!-- About dropdown -->
+                <div class="project-link abouttab">
+                  <ul class="">
+                    <li class="nav-item list-unstyled">
+                      <a
+                        class="nav-link text-black p-0"
+                        href="./project-services.html?redirect=aboutMe"
+                        ><span class="hover-underline-animation"> Who</span>
+                      </a>
+                    </li>
+                    <li class="nav-item list-unstyled">
+                      <a
+                        class="nav-link text-black p-0"
+                        href="./project-services.html?redirect=services"
+                      >
+                        <span class="hover-underline-animation"
+                          >Services</span
+                        ></a
+                      >
+                    </li>
+                    <li class="nav-item list-unstyled">
+                      <a
+                        class="nav-link text-black p-0"
+                        href="./project-services.html?redirect=contact"
+                        ><span class="hover-underline-animation"
+                          >Contact</span
+                        ></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item position-relative project-dropdown">
+                <a class="btn" href="Login-page.html">ACCOUNT</a>
+                <!-- Account dropdown -->
+                <div class="project-link">
+                  <ul class="">
+                    <li
+                      class="nav-item list-unstyled navLogOut"
+                      id="logoutHandler"
+                    ></li>
+                    <li class="nav-item list-unstyled">
+                      <a class="nav-link text-black p-0" href="Login-page.html"
+                        ><span class="hover-underline-animation">Login</span></a
+                      >
+                    </li>
+                    <li class="nav-item list-unstyled">
+                      <a
+                        class="nav-link text-black p-0"
+                        href="register-page.html"
+                        ><span class="hover-underline-animation"
+                          >Register</span
+                        ></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn btncolor rounded-0"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >CONTACT ME</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Login -->
+    <section>
+      <div class="bg-container">
+        <div class="container d-flex justify-content-center loginContainer">
+          <div class="my-5 py-5">
+            <h3 class="text-center mb-4">LOGIN</h3>
+            <p class="mb-4 text-center">
+              Please enter your e-mail and password:
+            </p>
+
+            <div id="errorbox"></div>
+            <form action="" class="login-form needs-validation" novalidate>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control rounded-0"
+                  id="emailAddress"
+                  placeholder="name@example.com"
+                  required
+                />
+                <label for="floatingInputemail">Email address</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control rounded-0"
+                  id="passWord"
+                  placeholder="Password"
+                  required
+                />
+                <label for="floatingPassword">Password</label>
+              </div>
+
+              <div class="d-grid">
+                <button
+                  class="btn btncolor rounded-0 mb-3 loginbutton"
+                  id="loginButton"
+                >
+                  LOGIN
+                </button>
+              </div>
+            </form>
+
+            <p class="text-center">
+              Don't have an account?
+              <a
+                class="btn btn-link text-decoration-none"
+                href="register-page.html"
+                >Create one</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal for contact me -->
+    <section>
+      <div class="modal" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Get in Touch</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form action="" class="needs-validation" novalidate>
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control rounded-0"
+                    id="name"
+                    placeholder="First name"
+                    required
+                  />
+                  <label for="floatingInputfname">Name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control rounded-0"
+                    id="emailme"
+                    placeholder="name@example.com"
+                    required
+                  />
+                  <label for="floatingInputemail">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="number"
+                    class="form-control rounded-0"
+                    id="phone"
+                    placeholder="Phone"
+                    required
+                  />
+                  <label for="floatingAddress">Phone</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <textarea
+                    class="form-control"
+                    placeholder="Leave a comment here"
+                    id="floatingTextareaModal"
+                    style="height: 100px"
+                    required
+                  ></textarea>
+                  <label for="floatingTextarea2">Comments</label>
+                </div>
+
+                <div class="d-grid">
+                  <button
+                    class="btn btncolor mb-3 buttonregister rounded-0"
+                    type="submit"
+                  >
+                    SEND
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                style="background-color: #efead8"
+                class="btn text-black rounded-0"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section id="mainFooter">
+      <div class="container-fluid p-4">
+        <div class="row d-flex justify-content">
+          <!-- contact details -->
+          <div class="contacts col-lg-4 mb-4 mb-md-0">
+            <p class="">CONTACT</p>
+            <p class="m-0">1111 - 222 - 333</p>
+            <p class="m-0">ar.mjoenaren@gmail.com</p>
+            <p class="m-0">Brgy. Kausawagan</p>
+            <p class="m-0">Cagayan de Oro City</p>
+            <p>Misamis Oriental, 9000</p>
+
+            <!-- social media -->
+            <div id="socialLinks">
+              <a
+                class="nav-link pinterest"
+                href="https://www.pinterest.ph/mariejoenarenm/"
+              >
+                <i class="bi bi-pinterest"></i>
+              </a>
+
+              <a
+                class="nav-link instagram"
+                href="https://www.instagram.com/ar.mjnm_designs/"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+
+              <a
+                class="nav-link linkedin"
+                href="https://www.linkedin.com/in/marie- joenaren-m-833101151/"
+              >
+                <i class="bi bi-linkedin"></i>
+              </a>
+
+              <a class="nav-link whatsapp" href="#">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+
+              <a
+                class="nav-link youtube"
+                href="https://www.youtube.com/channel/UCYPWdxnxQh6GrL1i4rXDdkg"
+              >
+                <i class="bi bi-youtube"></i>
+              </a>
+            </div>
+
+            <!-- index logo -->
+            <div class="indexLogo">
+              <img
+                class="footerLogo"
+                src="main_assets/mjm logo light.png"
+                alt="mjm logo"
+              />
+            </div>
+          </div>
+
+          <!-- quick links -->
+          <div class="qLinks col-lg-4 mb-4 mb-md-0">
+            <p>LINKS</p>
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><p>about</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><p>works</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><p>services</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html"><p>digital products</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!"><p>payments</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!"><p>FAQs</p></a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- newsletter -->
+          <div class="col-lg-4 mb-4 mb-md-0">
+            <form action="">
+              <p>NEWSLETTER</p>
+
+              <ul class="list-unstyled">
+                <li>
+                  <p class="m-0">Subscribe to receive updates, access to</p>
+                  <p class="mt-0">promo codes, and more!</p>
+                </li>
+
+                <li class="mb-3">
+                  <input
+                    class="p-2 w-75 rounded-0"
+                    type="email"
+                    placeholder="enter your email"
+                  />
+                </li>
+                <li>
+                  <button type="submit" class="btn btncolor rounded-0 w-75">
+                    SUBSCRIBE
+                  </button>
+                </li>
+              </ul>
+            </form>
+
+            <!-- terms and policies -->
+            <div class="termsAndPolicies">
+              <ul class="list-unstyled">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Terms and Conditions </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link policy" href="#"> Privacy Policies </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JS -->
+    <script src="script.js" defer></script>
+    <script>
+      // navbar show when scroll up
+      var prevScrollpos = window.pageYOffset;
+
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.querySelector("nav").style.top = "0";
+        } else {
+          document.querySelector("nav").style.top = "-7.2rem";
+        }
+        prevScrollpos = currentScrollPos;
+      };
+
+      //Login Function
+      const loginHandler = document.getElementById("loginButton");
+      const emailAddress = document.getElementById("emailAddress");
+      const password = document.getElementById("passWord");
+      const user = JSON.parse(localStorage.getItem("userInfo"));
+      const usernameDashboard = document.getElementById("userName");
+
+      loginHandler.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        const userData = user.find((data) => data.email === emailAddress.value);
+
+        if (userData) {
+          console.log(emailAddress.value, password.value);
+          if (
+            emailAddress.value === userData.email &&
+            password.value === userData.userPassword
+          ) {
+            // SET AUTHENTICATED USER TO LOGGED IN TRUE
+            let newData = user.map((data) => {
+              if (data.email === userData.email) {
+                return { ...userData, isLoggedIn: true };
+              } else {
+                return data;
+              }
+            });
+            // console.log(newData);
+            localStorage.setItem("userInfo", JSON.stringify(newData));
+            errorbox.innerHTML = `<div class="alert alert-success" role="alert">
+      Login successful!
+    </div>`;
+            setTimeout(() => {
+              location.href = "digital-products.html";
+            }, 1200);
+          } else {
+            // FALLBACK FOR WRONG INPUT CREDENTIAL
+            errorbox.innerHTML = `<div class="alert alert-danger" role="alert">
+        Email or Password is invalid!
+        </div>`;
+          }
+        } else {
+          // FALLBACK FOR WRONG INPUT CREDENTIAL
+          errorbox.innerHTML = `<div class="alert alert-danger" role="alert">
+      Email or Password is invalid!
+    </div>`;
+        }
+      });
+    </script>
+  </body>
+</html>

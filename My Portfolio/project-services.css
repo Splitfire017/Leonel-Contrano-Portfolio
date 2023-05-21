@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,300&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+.btncolor {
+  background-color: #39a90fff !important;
+  color: #ffff !important;
+  fill: solid !important;
+}
+
+.btn-sendM {
+  width: 652px;
+  letter-spacing: 4px;
+}
+
+.iemail2 {
+  border: 2px solid;
+  width: 325px;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 2px;
+  background-color: rgba(57, 169, 15, 0.2);
+}
+
+.iemail3 {
+  border: 2px solid;
+  width: 652px;
+  height: 241px;
+  border-radius: 5px;
+  margin-right: 2px;
+  background-color: rgba(57, 169, 15, 0.2);
+}
+
+/* Navbar */
+.project-link {
+  position: absolute;
+  top: 40px;
+  display: none;
+  background-color: #efead8;
+}
+
+.project-dropdown:hover .project-link {
+  display: block;
+}
+
+.projecttab {
+  width: 220px;
+}
+
+.digitab {
+  width: 200px;
+}
+
+.abouttab {
+  width: 150px;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: top 0.2s ease-in-out;
+  z-index: 100;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+}
+
+#navbarNav ul li {
+  margin: 15px;
+}
+
+/* Project */
+.project-section {
+  margin-top: 12%;
+  padding: 0 3rem 0 3rem;
+}
+
+h1 {
+  font-weight: 600 !important;
+}
+
+.cardp {
+  width: 349px;
+  height: 515px;
+  border: 0;
+  border-radius: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.cbody {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  color: #ffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+
+.card:hover .cbody {
+  right: 0;
+}
+
+.card-info {
+  line-height: 25px;
+  margin: 40px 0;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  object-fit: cover !important;
+}
+
+/* Services */
+.services-section {
+  margin-top: 10%;
+  padding: 0 3rem 0 3rem;
+}
+
+.serv2 {
+  margin: 5rem 0 5rem 0;
+}
+
+/* About me */
+.about-section {
+  background-color: #efead8;
+}
+
+.aboutRow {
+  padding: 10rem;
+}
+
+.aboutContent {
+  font-size: 20px;
+  padding-right: 10rem;
+}
+
+.aboutContentMain {
+  margin-left: 5rem;
+}
+.aboutContentMain h1 {
+  font-size: 72px;
+  font-weight: 600;
+  padding-top: 0;
+}
+.mariejoe {
+  width: 500px;
+}
+
+.accordion-button {
+  background: #efead8;
+}
+
+.accordion-item {
+  background: #efead8;
+}
+
+/* contact */
+#containerContact{
+  margin-top:5rem;
+}
+
+.contact-section h2 {
+  font-weight: bold;
+  letter-spacing: 0.3em;
+}
+
+.socialMedia {
+  font-size: 2rem;
+}
+
+.socialMedia a :hover {
+  color: #39a90fff;
+}
+
+/* footer */
+#mainFooter {
+  background: #285430;
+  margin-top: 5rem;
+  padding-top: 3rem;
+  color: white;
+}
+
+#mainFooter p {
+  padding: 5px;
+}
+
+.contacts {
+  padding-left: 2rem;
+}
+
+.footerLogo {
+  height: 75px;
+}
+
+#socialLinks a {
+  font-size: 2rem;
+  position: absolute;
+}
+
+#socialLinks a :hover {
+  color: #39a90fff;
+}
+
+.instagram {
+  margin-left: 3rem;
+}
+
+.linkedin {
+  margin-left: 6rem;
+}
+
+.whatsapp {
+  margin-left: 9rem;
+}
+
+.youtube {
+  margin-left: 12rem;
+}
+
+.indexLogo {
+  margin-top: 100px;
+}
+
+.qLinks ul li a :hover {
+  color: #39a90fff;
+}
+
+.termsAndPolicies {
+  margin-top: 4rem;
+}
+
+.termsAndPolicies ul li a {
+  position: absolute;
+}
+
+.policy {
+  margin-left: 200px;
+}
+
+/* LOGIN PAGE */
+.login-form {
+  width: 400px;
+}
+
+.loginContainer {
+  margin-top: 9%;
+  margin-bottom: 5%;
+}
+
+.bg-container {
+  background-color: #efead8;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 8%;
+}
+
+/* navbar hoverline */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

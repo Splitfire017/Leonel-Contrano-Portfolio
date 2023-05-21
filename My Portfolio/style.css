@@ -1,0 +1,245 @@
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  object-fit: fill;
+  fill: url(logo.png);
+}
+
+.btncolor {
+  background-color: #39a90fff !important;
+  color: #ffff !important;
+  fill: solid !important;
+}
+
+.text-color {
+  color: #000 !important;
+}
+
+.bg-image {
+  background-image: url("images/landing-page-pic.jpg");
+  background-size: cover;
+}
+
+.bg-blur {
+  width: 600px;
+  height: 380px;
+  position: absolute;
+  background-color: rgba(30, 30, 30, 0.3);
+  backdrop-filter: blur(0.3px);
+  /* box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.74); */
+}
+
+@media (width < 376px) {
+  .bgblur {
+    width: 375px;
+  }
+}
+
+.logo2 {
+  position: absolute;
+  padding-top: 35px;
+  padding-left: 30px;
+  object-fit: fill;
+}
+
+.content {
+  z-index: 1;
+}
+
+@media (width < 376px) {
+  .logo2 {
+    padding-top: 20px;
+  }
+}
+
+.heading {
+  padding-left: 140px;
+}
+
+.text-space {
+  letter-spacing: 5px;
+}
+
+.line {
+  color: #ffff;
+  border: 1px solid;
+  width: 14rem;
+  opacity: 1;
+  margin: 0 auto;
+}
+
+.bgimg {
+  background-size: cover;
+  object-fit: fill;
+  fill: url(bg-img2.png);
+  width: 100%;
+}
+
+.cardp {
+  width: 349px;
+  height: 515px;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.cbody {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  color: #ffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+
+.card:hover .cbody {
+  right: 0;
+}
+
+.card-info {
+  line-height: 25px;
+  margin: 40px 0;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+}
+
+.btnp {
+  width: 349px;
+  letter-spacing: 2px;
+}
+
+.bgblur2 {
+  width: 592px;
+  height: 350px;
+  position: absolute;
+  background-color: rgba(30, 30, 30, 0.3);
+  backdrop-filter: blur(0.3px);
+}
+
+.card-services {
+  width: 349px;
+  height: 428px;
+}
+
+.iemail {
+  border: 2px solid;
+  width: 350px;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: rgba(57, 169, 15, 0.2);
+}
+
+.btnsub {
+  height: 37px;
+  width: 170px;
+  letter-spacing: 2px;
+}
+
+.bgfooter {
+  background-color: #285430;
+  color: #ffffff;
+}
+
+/* Send a Message */
+.iemail2 {
+  border: 2px solid;
+  width: 325px;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 2px;
+  background-color: rgba(57, 169, 15, 0.2);
+}
+
+.iemail3 {
+  border: 2px solid;
+  width: 652px;
+  height: 241px;
+  border-radius: 5px;
+  margin-right: 2px;
+  background-color: rgba(57, 169, 15, 0.2);
+}
+
+.btnSaM {
+  width: 652px;
+  letter-spacing: 4px;
+}
+
+.tnc {
+  letter-spacing: 4px;
+  width: 600px;
+  padding-top: 110px;
+}
+
+.carousel-inner {
+  height: 512px;
+}
+
+.carouseltext {
+  width: 491px;
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+.img-fluid {
+  width: 450px;
+  height: 380px;
+  margin: 0%;
+}
+
+.banner {
+  height: 60px;
+  margin-top: 8%;
+  background-color: #285430;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 13px;
+}
+
+@media (width < 376px) {
+  .banner {
+    padding-top: 0px;
+  }
+}
+
+.commicard {
+  height: 478px;
+  width: 345px;
+}
+
+.commicardbody {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hug {
+  width: 180px;
+  font-size: 20px;
+}
+
+.commi {
+  margin-bottom: 10%;
+}
